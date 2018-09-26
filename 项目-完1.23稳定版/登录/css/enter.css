@@ -1,0 +1,363 @@
+.enter{
+    width: 100%;
+}
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+.enter .header{
+    width: 100% ;
+    height: 97px;
+}
+.header .main{
+    width: 1200px;
+    height: 57px;
+    margin:20px 0;
+ }
+.enter .header  .logo  img{
+    width: 220px;
+    height: 52px;
+    float:left;
+    line-height: 57px;
+
+}
+.enter .header .info {
+    width: 861px;
+    height: 100%;
+  line-height: 57px;
+    float:left;
+}
+.enter .header .info span{
+    border:1px solid #ffc0cc;
+    font-size: 11px;
+    color:#666;
+background-color: #ffefef;
+    padding:5px 15px;
+    text-align:center;
+}
+.enter  .banner{
+    width: 100%;
+    background: url("../images/red.png") no-repeat center center ;
+    background-size:cover;
+    height: 600px;
+    position: relative;
+}
+.enter .banner .banPage{
+    width: 400px;
+    height: 410px;
+    position:absolute;
+    top:0;
+    right: 0;
+    margin-top:81px;
+    margin-right:53px;
+}
+.enter .banner .banPage .banImport{
+    width: 380px;
+    height: 100%;
+    margin-left:20px;
+    position: relative;
+    background-color: white;
+    opacity: .8;
+}
+.enter .banner .banPage .banImport .scan{
+    width: 200px;
+    height: 80px;
+}
+.enter .banner .banPage .banImport .scan img{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+.enter .banner .banPage .banImport .regular {
+    width: 53px;
+    height: 53px;
+    background: url("../images/r1.png") no-repeat;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.enter .banner .banPage .banImport .code{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.enter .banner .banPage .banImport .downLoad{
+    position: absolute;
+    left: 120px;
+    bottom: 50px;
+}
+.enter .banner .banPage .banImport .downLoad a{
+   color:#333;
+    font-size:18px;
+   text-decoration: underline;
+}
+.enter .banner .banPage .banImportTwo{
+    width: 100%;
+    height: 349px;
+    position: absolute;
+    display:none;
+    top:0;
+    background-color: white;
+    opacity: .8;
+}
+.enter .banner .banPage .banImportTwo .common{
+    width: 100%;
+    height:250px ;
+}
+.enter .banner .banPage .banImportTwo .common .commonPhoto{
+    width: 53px;
+    height: 53px;
+    background: url("../images/r2.png") no-repeat;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+    top: 10px;
+    z-index: 1;
+}
+.enter .banner .banPage .banImportTwo .common #box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.enter .banner .banPage .banImportTwo .common ul{
+    width:380px ;
+    height:43px ;
+    margin-right:-50px;
+    border-bottom:1px solid grey;
+    margin-top:15px;
+    margin-left:20px;
+
+}
+.enter .banner .banPage .banImportTwo .common ul li{
+    float:left;
+    width: 140px;
+    height: 100%;
+    margin-right:50px;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+.enter .banner .banPage .banImportTwo .common ul li span{
+    float:left;
+    line-height:43px;
+     text-align: center;
+    margin-left:18px;
+
+}
+.enter .banner .banPage .banImportTwo .common  #box div{
+    float:left;
+    width: 400px;
+    height: 140px;
+    display: none;
+}
+.enter .banner .banPage .banImportTwo .common  #box div span{
+    width: 119px;
+    height: 2px;
+    background-color: red ;
+    position: absolute;
+    top: 42px;
+    left:15px;
+
+}
+.enter .banner .banPage .banImportTwo .common  #box div span.line{
+    width: 129px;
+    top:42px;
+    left:220px;
+    position: absolute;
+}
+
+.enter .banner .banPage .banImportTwo .common #box div.active{
+    display: block;
+
+}
+.enter .banner .banPage .banImportTwo .common #box .active1{
+    width: 312px;
+    height: 100px;
+    padding: 16px 43px 24px 45px;
+}
+.enter .banner .banPage .banImportTwo .common #box .active1 input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 0 6px;
+}
+.enter .banner .banPage .banImportTwo .common #box .active1 input.name{
+    margin-bottom: 16px;
+}
+.enter .banner .banPage .banImportTwo .common #box ul li.change{
+   color:red;
+}
+.enter .banner .banPage .banImportTwo .common #box .active2{
+    width: 312px;
+    height: 100px;
+    padding: 16px 43px 24px 45px;
+}
+.enter .banner .banPage .banImportTwo .common #box .active2 input{
+    border: 1px solid #ccc;
+    padding: 0 6px;
+}
+.enter .banner .banPage .banImportTwo .common #box .active2 .phone{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+.enter .banner .banPage .banImportTwo .common #box .active2 a{
+    width: 110px;
+    height: 42px;
+    background: #ff5777;
+    line-height: 42px;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+}
+.enter .banner .banPage .banImportTwo .common #box .active2 .password{
+    width: 180px;
+    height: 40px;
+    float: right;
+}
+.enter .banner .banPage .banImportTwo .login{
+    width: 312px;
+    height: 130px;
+    padding: 0 43px 34px 45px;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.enter .banner .banPage .banImportTwo .login input{
+    width: 312px;
+    height: 42px;
+    background: #ff5777;
+    border: 0;
+    border-radius: 3px;
+    color: #ffffff;
+}
+.enter .banner .banPage .banImportTwo .login .icon{
+    padding-top: 26px;
+    width: 100%;
+    height: 36px;
+}
+.enter .banner .banPage .banImportTwo .login .icon a{
+    margin-right: 45px;
+    color: #333;
+}
+.enter .banner .banPage .banImportTwo .login .icon a img{
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.enter .banner .banPage .banImportTwo .login .forget{
+    width: 100%;
+}
+.enter .banner .banPage .banImportTwo .login .forget a{
+    color: #959595;
+    border-bottom: 1px solid #959595;
+    float: right;
+    margin-right: 22px;
+}
+
+#footer-my{
+    width: 100%;
+    height: 100px;
+    padding-top:50px;
+}
+#footer-my #main-f1{
+    width: 1190px;
+    margin: 0 auto;
+
+}
+#footer-my #main-f1 div{
+    float: left;
+    width: 297px;
+    height: 100px;
+    border-bottom: 2px solid #ff5777;
+
+}
+#footer-my #main-f1 div h3{
+    font-size: 14px;
+    color:  #666;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+#footer-my #main-f1 div ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+#footer-my #main-f1 div ul li a{
+    width: 80px;
+    height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+#footer-my #main-f1 div ul li a:hover{
+    color: red;
+}
+#footer-my #main-f1 div ul li span{
+    font-size: 12px;
+    color: #999;
+}
+#footer-my #main-f1 .footer-ewm ul li{
+    margin-right: 40px;
+    position: relative;
+    cursor: pointer;
+}
+#footer-my #main-f1 .footer-ewm ul li img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    display: none;
+}
+#footer-my #main-f1 div ul li:hover img{
+    display: block;
+}
+#contact {
+    width: 100%;
+    height: 80px;
+    padding-bottom: 75px;
+}
+
+#contact #main-f2{
+    width: 1190px;
+    margin: 0 auto;
+}
+#contact #main-f2 .company{
+    height: 25px;
+    line-height: 25px;
+}
+#contact #main-f2 ul li{
+    float: left;
+    margin-right: 30px;
+}
+#contact #main-f2 ul li a{
+
+    color: #666;
+    height: 20px;
+    line-height: 20px;
+}
+#contact #main-f2 ul li a:hover{
+    color: pink;
+}
+#contact #main-f2 li p{
+    color: #999;
+    margin-top: 5px;
+    width: 400px;
+    height: 20px;
+    line-height: 20px;
+}
+#contact #main-f2 .footer-tel div{
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    border-right: 1px solid #999;
+    padding-right: 5px;
+    height: 20px;
+    line-height: 20px;
+}
+#contact #main-f2 .footer-tel div a{
+    color: #999;
+}
+

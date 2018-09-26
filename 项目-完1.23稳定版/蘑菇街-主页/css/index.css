@@ -1,0 +1,935 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+
+}
+a{
+    text-decoration: none;
+}
+.clearFix{
+    content: '';
+    display: block;
+    clear: both;
+}
+body{
+    margin: 0;
+}
+
+#secondParts{
+    width: 100%;
+    /*margin-bottom: 48px*/
+}
+#secondParts .main{
+    width: 1190px;
+    margin: 48px auto;
+
+}
+#secondParts .main .top{
+    width: 100%;
+}
+#secondParts .main .top .leftSide{
+    width: 230px;
+    height: 293px;
+    background: url('../img/Image/second-pink1.jpg') no-repeat  ;
+    background-size:cover;
+    position:relative;
+    float: left;
+}
+#secondParts .main .top .rightSide ul li{
+    list-style: none;
+}
+#secondParts .main .top .leftSide #countDown{
+    position: absolute;
+    width: 160px;
+    height: 42px;
+    left:35px;
+    bottom:28px;
+}
+#secondParts .main .top .leftSide #countDown span{
+    width: 42px;
+    height: 42px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    float:left;
+    background: black;
+    border-radius: 5px;
+    color: white;
+}
+
+#secondParts .main .top .leftSide #countDown .countDot{
+    width: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    opacity: .7;
+    background: none;
+}
+#secondParts .main .top .rightSide{
+    width: 960px;
+    height: 293px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    background: #fff;
+}
+#secondParts .main .top .rightSide #active{
+    position: absolute;
+}
+#secondParts .main .top .rightSide #active ul{
+    width: 918px;
+    height: 265px;
+    padding: 28px 0 0 42px;
+    float: left;
+}
+#secondParts .main .top .rightSide #active ul li{
+    width: 190px;
+    height: 265px;
+    overflow: hidden;
+    margin-right: 39px;
+    position: relative;
+    float: left;
+}
+#secondParts .main .top .rightSide #active ul li img{
+    width: 100%;
+}
+#secondParts .main .top .rightSide #active .describe{
+    width: 190px;
+    height: 74px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#secondParts .main .top .rightSide #active ul li .describe h3{
+    font-weight: normal;
+    color: #666;
+    font-size: 16px;
+    line-height: 40px;
+}
+#secondParts .main .top .rightSide #active ul li .describe .left{
+    font-size: 22px;
+    color: #ff4b6d;
+    float: left;
+}
+#secondParts .main .top .rightSide #active ul li .describe .right{
+    font-size: 14px;
+    color: #999;
+    float: right;
+    margin-right: 8px;
+    line-height: 30px;
+}
+#secondParts .main .top .rightSide .littleLeft,.littleRight{
+    background: url("../img/Image/icon.png") no-repeat;
+    width: 35px;
+    height: 58px;
+    position: absolute;
+    top: 110px;
+}
+#secondParts .main .top .rightSide a.littleLeft{
+    background-position: 0 0;
+    left: 0;
+}
+#secondParts .main .top .rightSide a.littleRight{
+    background-position: -50px 0;
+    right: 0;
+}
+
+#secondParts .main .Bottom{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    float:left;
+}
+#secondParts .Bottom img{
+    margin-right: 10px;
+    width: 230px;
+    height: 150px;
+    float: left;
+}
+#secondParts .Bottom .clearMargin{
+    margin-right: 0;
+}
+#secondParts .Bottom img.first{
+    width: 470px;
+    height: 150px;
+}
+
+
+
+
+ul, li {
+    list-style: none;
+}
+
+#threeParts {
+    width: 100%;
+    /*margin-bottom: 48px*/
+}
+
+#threeParts .main {
+    width: 1190px;
+    margin: 48px auto;
+}
+
+#threeParts .main .littleTitle {
+    width: 100%;
+    height: 22px;
+    margin: 0 0 16px;
+}
+
+#threeParts .main .littleTitle .littleTittleIcon {
+    height: 100%;
+    width: 8px;
+    background-color: #ffa1bb;
+    float: left;
+    margin-right: 10px;
+}
+
+#threeParts .main .littleTitle p {
+    height: 22px;
+    font-weight: 700;
+    float: left;
+    margin-right: 30px;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+#threeParts .main .littleTitle .littleTittleWord a {
+    margin: 0 16px;
+    font-size: 14px;
+    color: black;
+}
+
+#threeParts .main .littleTitle .littleTittleWord a:hover {
+    color: #FF5777;
+}
+
+#threeParts .main .threePartsBottom {
+    width: 100%;
+    height: 633px;
+}
+
+#threeParts .main .threePartsBottom .photo {
+    width: 230px;
+    height: 100%;
+    display: inline-block;
+}
+
+#threeParts .main .threePartsBottom .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight {
+    width: 950px;
+    float: right;
+    height: 633px;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoTop {
+    width: 100%;
+    height: 408px;
+    position: relative;
+    overflow: hidden;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoTop #classMany {
+    float: left;
+    position: absolute;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoTop #classMany ul {
+    margin-right: -10px;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoTop #classMany ul li {
+    width: 230px;
+    height: 408px;
+    background: white;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoTop #classMany ul li .show {
+    width: 198px;
+    height: 376px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoTop #classMany ul li .show img {
+    width: 100%;
+    height: 297px;
+    border-radius: 4px;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoTop #classMany ul li .show .title {
+    letter-spacing: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    height: 44px;
+    position: relative;
+    line-height: 22px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: 198px;
+    color: #333333;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoTop #classMany ul li .show .money {
+    font-size: 22px;
+    color: #ff5777;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoTop .topBtnL, .topBtnR {
+    background: url("../img/Image/icon.png") no-repeat;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoTop .topBtnL {
+    width: 35px;
+    height: 58px;
+    position: absolute;
+    background-position: 0 0;
+    left: 0;
+    top: 35%;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoTop .topBtnR {
+    width: 35px;
+    height: 58px;
+    position: absolute;
+    background-position: -50px 0;
+    right: 0;
+    top: 35%;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoCenter {
+    width: 100%;
+    height: 133px;
+    margin-right: -6px;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoCenter a {
+    float: left;
+    width: 230px;
+    height: 100%;
+    margin-right: 9px;
+
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoCenter .clearMargin {
+    margin-right: 0;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoCenter .CenterBig {
+    width: 470px;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoCenter a img {
+    width: 100%;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom {
+    width: 100%;
+    height: 83px;
+    float: left;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom li {
+    width: 230px;
+    height: 83px;
+    margin-right: 10px;
+    float: left;
+    background: white;
+    position: relative;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom li.clearMargin {
+    margin-right: 0;
+}
+
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom .goodsInfo {
+    width: 137px;
+    height: 54px;
+    margin: 15px 0 0 13px;
+}
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom .goodsInfo .goodsTitle{
+    font-size: 20px;
+}
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom .goodsInfo .one{
+    color:#ff4b6d;
+}
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom .goodsInfo .two,.three{
+    color:cornflowerblue;
+}
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom .goodsInfo .four{
+    color:deeppink;
+}
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom .goodsInfo .goodsDesc{
+    font-size:14px;
+    color:#666666;
+    margin-top:7px;
+}
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom .goodsShow {
+    width: 83px;
+    height: 83px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 1s;
+}
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom .goodsShow:hover{
+    top: -5px;
+    cursor: pointer;
+}
+#threeParts .main .threePartsBottom .threePartsRight .classPhotoBottom .goodsShow img{
+    width: 100%;
+}
+
+
+/*html,body{
+    background: #fffce5;
+}*/
+.mainContent{
+    margin: 48px auto;
+    width: 1190px;
+
+}
+.mainContent .mainbav{
+  height: 22px;
+    margin-bottom: 16px;
+}
+.mainContent .mainbav .bg{
+    height: 22px;
+    width: 8px;
+    margin-right: 10px;
+    background: #8dc7ff;
+    float: left;
+}
+.mainContent .mainbav .subtitle{
+    font-size: 20px;
+    line-height: 22px;
+    float: left;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.mainContent .mainbav .subbav{
+  height: 22px;
+}
+.mainContent .mainbav .subbav a{
+    width: 85px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    border-right: 1px solid #333333 ;
+    margin-top:4px;
+    float: left;
+}
+.mainContent .mainbav .subbav a:hover{
+    color: #ff97dc;
+}
+.mainContent .macroplate .leftBanner{
+    width: 230px;
+    height: 555px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+.mainContent .macroplate .leftBanner .banners{
+    height: 555px;
+    position: absolute;
+}
+.mainContent .macroplate .leftBanner .banners a{
+    float: left;
+    width: 230px;
+    height:555px;
+    /*background: url("");*/
+}
+.mainContent .macroplate .leftBanner .banners a img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+
+.mainContent .middleBanner{
+    width: 630px;
+    height: 555px;
+    margin: 0 10px;
+    float: left;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.mainContent .middleBanner .xintain{
+    width: 630px;
+    position: absolute;
+
+}
+.mainContent .middleBanner .xintain .Swiper{
+    width: 630px;
+    padding: 10px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+.mainContent .middleBanner .xintain .Swiper a{
+    width: 180px;
+    float: left;
+    padding:10px 10px 8px;
+}
+.mainContent .middleBanner .xintain .Swiper a img{
+    width:180px ;
+    height:180px;
+}
+.mainContent .middleBanner .xintain .Swiper a p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    height: 20px;
+    margin-top: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 182px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.mainContent .middleBanner .xintain .Swiper a span{
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    color: #FF5777;
+}
+.mainContent .middleBanner .focus{
+    position: absolute;
+    bottom:15px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.mainContent .middleBanner .focus li{
+    margin-right: 18px;
+    border-radius: 50%;
+    float: left;
+    width: 7px;
+    height: 7px;
+    background: #D8D8D8;
+    cursor: pointer;
+
+}
+.mainContent .middleBanner .focus li.selected{
+    background: #666;
+}
+
+
+.mainContent .macroplate{
+
+}
+
+.mainContent .macroplate .rightBanner{
+    width: 310px;
+    height: 555px;
+    background: #fff;
+    float: left;
+}
+
+.mainContent .macroplate .rightBanner .wrapper {
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    width: 274px;
+    padding: 28px 20px 26px;
+}
+.mainContent .macroplate .rightBanner .wrapper span{
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #333333;
+}
+.mainContent .macroplate .rightBanner .wrapper span.spans{
+    font-size: 14px;
+    letter-spacing: 0;
+    float: right;
+    color: #5F5F5F;
+    cursor: pointer;
+    position: relative;
+}
+.mainContent .macroplate .rightBanner .wrapper b{
+    width: 12px;
+    height: 16px;
+    display: inline-block;
+    margin: 0 3px;
+    line-height: 22px;
+    position: absolute;
+    left: -18px;
+    top: 2px;
+    background: url("../img/mainContentlogo.png");
+    background-size: 100%;
+}
+.mainContent .macroplate .rightBanner .random{
+
+}
+.mainContent .macroplate .rightBanner .random li{
+    width: 274px;
+    display: block;
+    height: 93px;
+    margin: 0 auto 21px;
+}
+.mainContent .macroplate .rightBanner .random li img{
+    width: 93px;
+    height: 93px;
+    float: left;
+    margin-right: 11px;
+}
+.mainContent .macroplate .rightBanner .random li div{
+    float: left;
+    width: 170px;
+}
+.mainContent .macroplate .rightBanner .random li div p{
+    width: 100%;
+    font-size: 14px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    height: 44px;
+    position: relative;
+    line-height: 22px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.mainContent .macroplate .rightBanner .random li div span{
+    font-size: 20px;
+    color: #ff5777;
+}
+
+
+
+/*
+bbbbbbbbbbbbbbbbbbbbbbbbbbb
+*/
+body {
+    background: #e6e6e6;
+}
+.fourParts{
+    width: 100%;
+    margin-bottom: 48px
+}
+.fourParts .main {
+    width: 1190px;
+    margin: 0 auto;
+}
+.fourParts .main .like h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 90px;
+}
+.fourParts .main .like ul {
+    margin-right: -40px;
+
+}
+.fourParts .main .like ul li {
+    float: left;
+    width: 218px;
+    height: 373px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border: 1px solid transparent;
+    background: url(../img/img4/loading.png) no-repeat center center;
+}
+.fourParts .main .like ul li .lis_top {
+    position: relative;
+}
+.fourParts .main .like ul li .lis_top img {
+    width: 218px;
+    height: 294px;
+}
+.fourParts .main .like ul li .lis_top .hidden {
+    float: left;
+    line-height: 26px;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    background: rgba(225, 0, 50, 0.5);
+    display: none;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.fourParts .main .like ul li a {
+    width: 218px;
+    height: 79px;
+    display: inline-block;
+    background-color: #fff;
+    border-bottom: 1px solid transparent;
+}
+
+.fourParts .main .like ul li a p.content {
+    margin: 6px 0 3px;
+    padding: 0 8px;
+    height: 40px;
+    font-size: 15px;
+    color: #4a4b4b;
+    overflow: hidden;
+}
+.fourParts .main .like ul li a p.hot {
+    display: none;
+}
+.fourParts .main .like ul li a p.hot {
+    color: red;
+    display: block;
+    margin-left: 8px;
+    width: 30px;
+    height: 18px;
+    border: 1px solid red ;
+    font-size: 13px;
+}
+.fourParts .main .like ul li a .lis_bottom {
+    padding: 0 8px;
+    height: 25px;
+}
+.fourParts .main .like ul li a .lis_bottom span {
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.fourParts .main .like ul li a .lis_bottom .collect {
+    float: right;
+}
+.fourParts .main .like ul li a .lis_bottom .collect img {
+    padding: 4px;
+    line-height: 25px;
+    width: 15px;
+    height: 16px;
+}
+.fourParts .main .like ul li a .lis_bottom .collect p {
+    line-height: 25px;
+    font-size: 12px;
+    float: right;
+}
+.fourParts .main .like ul li a .lis_bottom del {
+    line-height: 25px;
+    font-size: 12px;
+}
+.fourParts .main .like ul li a:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+.fourParts .main .like ul li:hover {
+    border: 1px solid red;
+    cursor: pointer;
+}
+.fourParts .main .like ul li:hover a{
+    border-bottom: 1px solid red;
+
+}
+.fourParts .main .like ul li:hover .hidden {
+    display: block;
+}
+.fourParts .main .like ul li:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+.fourParts .main .like:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+
+/*底部*/
+#footer-my #main-f1{
+    width: 1190px;
+    margin: 0 auto;
+}
+#footer-my #main-f1 div{
+    float: left;
+    width: 297.5px;
+    height: 100px;
+    border-bottom: 2px solid red;
+}
+#footer-my #main-f1 div h3{
+    font-size: 14px;
+    color:  #666;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+#footer-my #main-f1 div ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+#footer-my #main-f1 div ul li a{
+    width: 80px;
+    height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+#footer-my #main-f1 div ul li a:hover{
+    color: red;
+}
+#footer-my #main-f1 div ul li span{
+    font-size: 12px;
+    color: #999;
+}
+#footer-my #main-f1 .footer-ewm ul li{
+    margin-right: 40px;
+    position: relative;
+    cursor: pointer;
+}
+#footer-my #main-f1 .footer-ewm ul li img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    display: none;
+}
+#footer-my #main-f1 div ul li:hover img{
+    display: block;
+}
+
+
+#contact #main-f2{
+    width: 1190px;
+    margin: 0 auto;
+}
+#contact #main-f2 .company{
+    height: 25px;
+    line-height: 25px;
+}
+#contact #main-f2 ul li{
+    float: left;
+    margin-right: 30px;
+}
+#contact #main-f2 ul li a{
+    font-size: 14px;
+    color: #333;
+    height: 20px;
+    line-height: 20px;
+}
+#contact #main-f2 ul li a:hover{
+    color: pink;
+}
+#contact #main-f2 li p{
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+    width: 400px;
+    height: 20px;
+    line-height: 20px;
+}
+#contact #main-f2 .footer-tel div{
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    border-right: 1px solid #999;
+    padding-right: 5px;
+    height: 20px;
+    line-height: 20px;
+}
+#contact #main-f2 .footer-tel div a{
+    color: #999;
+}
+
+/*右侧固定*/
+#fixed {
+    width: 30px;
+    height: 943px;
+    background: #202020;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+#fixed .margin-fixed {
+   /* margin-top: 70px;*/
+}
+#fixed .margin-fixed .height-fixed {
+    text-align: center;
+    width: 30px;
+    height: 83px;
+}
+#fixed .margin-fixed .height-fixed .border-fixed-1 {
+    width: 20px;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+}
+#fixed .margin-fixed .height-fixed .border-fixed-1 a div {
+    display: block;
+    width: 14px;
+    font-size: 12px;
+    color: #fff;
+    margin: 3px 0 0 3px;
+    padding-bottom: 10px;
+}
+#fixed .margin-fixed .height-fixed .border-fixed-1 a #fixed-padding-price {
+    height: 30px;
+    padding-bottom: 16px;
+}
+#fixed .margin-fixed .height-fixed .border-fixed-1 a img {
+    padding-top: 10px;
+}
+#fixed .margin-fixed .height-fixed .border-fixed-1 a .img-margin-fixed {
+    margin-left: 3px;
+}
+#fixed .margin-fixed div:hover {
+    background: orangered;
+}
+#fixed .margin-fixed .padding-fixed {
+    height: 75px;
+}
+#fixed .margin-fixed span {
+    display: block;
+    width: 30px;
+    height: 32px;
+    text-align: center;
+    margin-top: 8px;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+#fixed .margin-fixed span div {
+    position: absolute;
+    left: -176px;
+    top: -23px;
+    display: none;
+}
+#fixed .margin-fixed span div img {
+    background: transparent;
+}
+#fixed .margin-fixed span:hover div {
+    display: block;
+}
+#fixed .margin-fixed .fixed-top {
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    width: 30px;
+    display: none;
+
+}
+#fixed .margin-fixed .fixed-top div {
+    width: 20px;
+    border-top: 1px solid white;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+#fixed .margin-fixed .fixed-top div a img {
+    margin-left: 2px;
+}

@@ -1,0 +1,191 @@
+body,html,div,img,ul,li,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "微软雅黑 Light";
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  border: none;
+}
+#box{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+@color: #666;
+@colorFont: #999;
+@background-color: #f2f2f2;
+@img: url("../image/index/spirit.png");
+@radius: 0 0 5px 5px;
+@border: 1px solid #ddd;
+@hoverColor: #cdd1bb;
+@colorMost: #f07;
+@fontSize: 10px;
+.wrap {
+
+  width: 1190px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.clear:after {
+  display: block;
+  height: 0;
+  content: "";
+  clear: both
+}
+
+header {
+  background-color: @background-color;
+  border-bottom: 1px solid #ddd;
+
+  .header-first {
+
+    .header_right {
+      float: right;
+      li {
+        float: left;
+        position: relative;
+        color: @color;
+        font-size: 10px;
+        margin: 0 10px 0 0;
+
+        .my_order {
+          background: @img -4px 249px;
+          padding-left: 20px;
+
+        }
+
+        .shopping_cart {
+          background: @img -4px 357px;
+          padding-left: 25px;
+        }
+      }
+      .s3 .shopping_cart_text {
+        color: @colorFont;
+        display: none;
+        z-index: 100;
+        position: absolute;
+        left: -100px;
+        background-color: @background-color;
+        padding: 18px 0;
+        height: 18px;
+        line-height: 18px;
+        text-align: center;
+        width: 200px;
+        border-radius: @radius;
+        border: @border;
+        border-top: none;
+
+      }
+      .s3:hover {
+        .shopping_cart_text {
+          display: block;
+        }
+      }
+      .customer_service {
+        margin-left: -5px;
+        .customer_service_icon {
+          position: absolute;
+          background: @img -4px 308px;
+          width: 8px;
+          height: 5px;
+          top: 50%;
+          margin-top: -2.5px;
+          right: 14px;
+        }
+        .customer_service_list {
+          position: absolute;
+          left: -7px;
+          display: none;
+          background-color: @background-color;
+          border-radius: @radius;
+          border: @border;
+          border-top: none;
+          li {
+            margin-right: 0;
+            padding-left: 5px;
+            width: 100px;
+
+          }
+
+        }
+      }
+      .customer_service:hover {
+        .customer_service_list {
+          display: block;
+        }
+      }
+      .s4 .customer_service_list li:hover {
+        background-color: @hoverColor;
+      }
+      .s5 {
+        margin-right: 13px;
+        .business_backstage {
+          display: inline-block;
+          padding: 0 5px 0 25px;
+          background: @img -4px 217px;
+
+        }
+        .business_backstage_list {
+          position: absolute;
+          display: none;
+          background-color: @background-color;
+
+          left: -12px;
+          border-radius: @radius;
+          border: @border;
+          border-top: none;
+          li {
+            width: 100px;
+            margin-right: 0;
+            text-align: center;
+          }
+
+        }
+
+        .icon_shop {
+          position: absolute;
+          background: @img -4px 308px;
+          width: 8px;
+          height: 5px;
+          top: 50%;
+          margin-top: -2.5px;
+          right: -8px;
+
+        }
+      }
+      .s5:hover {
+        .business_backstage_list {
+          display: block;
+        }
+      }
+    }
+    .s5 .business_backstage_list li:hover {
+      background-color: @hoverColor;
+    }
+
+    .header_nav_left {
+      display: inline-block;
+      margin-left: 12px;
+      a {
+        background: @img -4px -241px no-repeat;
+        padding-left: 20px;
+      }
+    }
+    a {
+      padding: 0 20px 0 10px;
+      height: 30px;
+      line-height: 30px;
+      color: @color;
+      font-size: @fontSize;
+
+    }
+  }
+}

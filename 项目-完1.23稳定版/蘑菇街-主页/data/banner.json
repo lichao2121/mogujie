@@ -1,0 +1,21 @@
+[
+  {
+    "src":"img/image/index/banner_img1.jpg",
+    "img":"秋季必Buy，抢品牌",
+    "backgroundColor":"#fbb785",
+    "focus_src":"img/image/index/swiper_button2.png"
+  },
+  {
+    "src":"img/image/index/banner_img2.jpg",
+    "img":"美白作战，超级品牌日",
+    "backgroundColor":"#00d6ff",
+    "focus_src":"img/image/index/swiper_button2.png"
+  },
+  {
+    "src":"img/image/index/banner_img3.jpg",
+    "img":"品质团购每日上新",
+    "backgroundColor":"#ffc885",
+    "focus_src":"img/image/index/swiper_button2.png"
+  }
+
+]
